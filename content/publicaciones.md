@@ -57,7 +57,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">Energy Saving Technology Adoption under Uncertainty in the Residential Sector</h4>
 <div class="pubauthor">Dorothée Charlier, <strong>Alejandro Mosiño</strong>, Aude Pommeret</div>
-<div class="pubcite"><span class="label label-success">Journal Paper</span> Annales d'Économie et Statistique, Volume 103/104, July/December 2012, Pages 43-70</div>
+<div class="pubcite"><span class="pub-tag pub-tag--journal">Journal article</span> Annales d'Économie et Statistique, Volume 103/104, July/December 2012, Pages 43-70</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -74,7 +74,7 @@ url: "/publicaciones.html"
 </a> </div>
 <h4 class="pubtitle">Using Chebyshev Polynomials to Approximate Partial Differential Equations: A Reply</h4>
 <div class="pubauthor"><strong>Alejandro Mosiño</strong></div>
-<div class="pubcite"><span class="label label-success">Journal Paper</span> Computational Economics, Volume 39, Issue 1, January 2012, Pages 13-27</div>
+<div class="pubcite"><span class="pub-tag pub-tag--journal">Journal article</span> Computational Economics, Volume 39, Issue 1, January 2012, Pages 13-27</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -92,7 +92,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">Producing energy in a stochastic environment: Switching from non-renewable to renewable resources</h4>
 <div class="pubauthor"><strong>Alejandro Mosiño</strong></div>
-<div class="pubcite"><span class="label label-success">Journal Paper</span> Resource and Energy Economics, Volume 34, Issue 4, November 2012, Pages 413-430</div>
+<div class="pubcite"><span class="pub-tag pub-tag--journal">Journal article</span> Resource and Energy Economics, Volume 34, Issue 4, November 2012, Pages 413-430</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -109,7 +109,7 @@ url: "/publicaciones.html"
 </a> </div>
 <h4 class="pubtitle">A Theory of Sequential Group Reciprocity</h4>
 <div class="pubauthor">Alejandro T. Moreno-Okuno, <strong>Alejandro Mosiño</strong></div>
-<div class="pubcite"><span class="label label-success">Journal Paper</span> Latin American Economic Review, 26(1), PP. 1-19. </div>
+<div class="pubcite"><span class="pub-tag pub-tag--journal">Journal article</span> Latin American Economic Review, 26(1), PP. 1-19. </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -126,7 +126,7 @@ url: "/publicaciones.html"
 </a> </div>
 <h4 class="pubtitle">On modeling fossil fuel prices: geometric Brownian motion vs. variance-gamma process</h4>
 <div class="pubauthor"><strong>Alejandro Mosiño</strong>, Alejandro T. Moreno-Okuno</div>
-<div class="pubcite"><span class="label label-success">Journal Paper</span> Economics Bulletin, AccessEcon, vol. 38(1), pages 509-519. </div>
+<div class="pubcite"><span class="pub-tag pub-tag--journal">Journal article</span> Economics Bulletin, AccessEcon, vol. 38(1), pages 509-519. </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -143,7 +143,7 @@ url: "/publicaciones.html"
 </a> </div>
 <h4 class="pubtitle">Estudio empírico sobre el tipo de cambio mxn/usd: movimiento browniano geométrico versus proceso varianza-gamma</h4>
 <div class="pubauthor"><strong>Alejandro Mosiño</strong>, Laura Andrea Salomón Núñez, Alejandro T. Moreno-Okuno</div>
-<div class="pubcite"><span class="label label-success">Journal Paper</span> EconoQuantum, 16(1), 33-56.  </div>
+<div class="pubcite"><span class="pub-tag pub-tag--journal">Journal article</span> EconoQuantum, 16(1), 33-56.  </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -160,7 +160,7 @@ url: "/publicaciones.html"
 </a> </div>
 <h4 class="pubtitle">Group fairness equilibria</h4>
 <div class="pubauthor">Alejandro T. Moreno-Okuno, <strong>Alejandro Mosiño</strong></div>
-<div class="pubcite"><span class="label label-success">Journal Paper</span> EconoQuantum, 17(1), 29-46.   </div>
+<div class="pubcite"><span class="pub-tag pub-tag--journal">Journal article</span> EconoQuantum, 17(1), 29-46.   </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -177,7 +177,7 @@ url: "/publicaciones.html"
 </a> </div>
 <h4 class="pubtitle">Evaluating India’s energy targets using real options approach</h4>
 <div class="pubauthor">Supratim Das Gupta, <strong>Alejandro Mosiño</strong></div>
-<div class="pubcite"><span class="label label-success">Journal Paper</span> International Journal of Energy Sector Management, Vol. 14 No. 4, pp. 757-776.   </div>
+<div class="pubcite"><span class="pub-tag pub-tag--journal">Journal article</span> International Journal of Energy Sector Management, Vol. 14 No. 4, pp. 757-776.   </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -194,7 +194,7 @@ url: "/publicaciones.html"
 </a> </div>
 <h4 class="pubtitle">Association between School Performance and Anemia in Adolescents in Mexico</h4>
 <div class="pubauthor"><strong>Alejandro Mosiño</strong>,  Karen P. Villagómez-Estrada, Alberto Prieto-Patrón</div>
-<div class="pubcite"><span class="label label-success">Journal Paper</span> International Journal of Environmental Research and Public Health, Vol. 17 No. 5, 1466.   </div>
+<div class="pubcite"><span class="pub-tag pub-tag--journal">Journal article</span> International Journal of Environmental Research and Public Health, Vol. 17 No. 5, 1466.   </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -211,7 +211,7 @@ url: "/publicaciones.html"
                                                             </a>--> </div>
 <h4 class="pubtitle">Problemas del desarrollo en México</h4>
 <div class="pubauthor">Claudia S. Gómez López, Manuel de Jesús Gómez Zalvidar, <strong>Alejandro Mosiño</strong>  (Coordinadores)</div>
-<div class="pubcite"><span class="label label-success">Book</span> Grañén Porrúa, 2017 </div>
+<div class="pubcite"><span class="pub-tag pub-tag--book">Book</span> Grañén Porrúa, 2017 </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -228,7 +228,7 @@ url: "/publicaciones.html"
                                                             </a>--> </div>
 <h4 class="pubtitle">ABCD'Economía</h4>
 <div class="pubauthor"><strong>Alejandro Mosiño</strong>  (Coordinador)</div>
-<div class="pubcite"><span class="label label-success">Book</span> Secularte, A.C., 2018 </div>
+<div class="pubcite"><span class="pub-tag pub-tag--book">Book</span> Secularte, A.C., 2018 </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -245,7 +245,7 @@ url: "/publicaciones.html"
                                                             </a>--> </div>
 <h4 class="pubtitle">Problemas del desarrollo en México II</h4>
 <div class="pubauthor">Claudia S. Gómez López, Manuel de Jesús Gómez Zalvidar, <strong>Alejandro Mosiño</strong>  (Coordinadores)</div>
-<div class="pubcite"><span class="label label-success">Book</span> Grañén Porrúa, 2019 </div>
+<div class="pubcite"><span class="pub-tag pub-tag--book">Book</span> Grañén Porrúa, 2019 </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -262,7 +262,7 @@ url: "/publicaciones.html"
                                                             </a>--> </div>
 <h4 class="pubtitle">ABCD'Economía II</h4>
 <div class="pubauthor"><strong>Alejandro Mosiño</strong>  (Coordinador)</div>
-<div class="pubcite"><span class="label label-success">Book</span> Secularte, A.C., 2019 </div>
+<div class="pubcite"><span class="pub-tag pub-tag--book">Book</span> Secularte, A.C., 2019 </div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -281,7 +281,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">Potencial de desarrollo de las diversas clases de actividad económica de la industria automotriz en las entidades federativas</h4>
 <div class="pubauthor">Marco T. Mosqueda, Manuel Gómez-Zaldívar, <strong>Alejandro Mosiño</strong></div>
-<div class="pubcite"><span class="label label-success">Book Chapter</span> Problemas del Desarrollo en México, Ch.1. Grañén Porrúa, 2017</div>
+<div class="pubcite"><span class="pub-tag pub-tag--chapter">Book chapter</span> Problemas del Desarrollo en México, Ch.1. Grañén Porrúa, 2017</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -300,7 +300,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">Impacto de la anemia e indicadores de desarrollo social en el desempeño escolar de niños y adolescentes en el estado de Guanajuato</h4>
 <div class="pubauthor"><strong>Alejandro Mosiño</strong>, Claudia S. Gómez López</div>
-<div class="pubcite"><span class="label label-success">Book Chapter</span> Temas selectos de desarrollo social y humano en el estado de Guanajuato, Ch.8. Observatorio Académico de Desarrollo Social y Humano para el estado de Guanajuato, 2017</div>
+<div class="pubcite"><span class="pub-tag pub-tag--chapter">Book chapter</span> Temas selectos de desarrollo social y humano en el estado de Guanajuato, Ch.8. Observatorio Académico de Desarrollo Social y Humano para el estado de Guanajuato, 2017</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -319,7 +319,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">Indicadores de desarrollo social y su asociación con el desempeño escolar de niños y adolescentes en el estado de Guanajuato.</h4>
 <div class="pubauthor"><strong>Alejandro Mosiño</strong>, Claudia S. Gómez López</div>
-<div class="pubcite"><span class="label label-success">Book Chapter</span> Problemas del Desarollo en México, Ch.8. Grañén Porrúa, 2017</div>
+<div class="pubcite"><span class="pub-tag pub-tag--chapter">Book chapter</span> Problemas del Desarollo en México, Ch.8. Grañén Porrúa, 2017</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -338,7 +338,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">Aplicaciones y Extensiones de los Árboles Binomiales en Problemas de Opciones Reales.</h4>
 <div class="pubauthor">Supratim Das Gupta, <strong>Alejandro Mosiño</strong></div>
-<div class="pubcite"><span class="label label-success">Book Chapter</span> Tendencias en Ciencias Económico-Administrativas, Ch. 1. Secularte, A.C. 2018.</div>
+<div class="pubcite"><span class="pub-tag pub-tag--chapter">Book chapter</span> Tendencias en Ciencias Económico-Administrativas, Ch. 1. Secularte, A.C. 2018.</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -357,7 +357,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">Econometría.</h4>
 <div class="pubauthor"><strong> Alejandro Mosiño</strong>, Antonio Baez Morales</div>
-<div class="pubcite"><span class="label label-success">Book Chapter</span> ABCD'Economía, Ch. 4. Secularte, A.C. 2018.</div>
+<div class="pubcite"><span class="pub-tag pub-tag--chapter">Book chapter</span> ABCD'Economía, Ch. 4. Secularte, A.C. 2018.</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -376,7 +376,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">Redes Sociales como herramienta pare predecir el resultado de las elecciones presidenciales 2018 en México</h4>
 <div class="pubauthor"><strong> Alejandro Mosiño</strong>, T. Guillermo García Calva, Marco Aurelio Sotelo Figuero</div>
-<div class="pubcite"><span class="label label-success">Book Chapter</span> Tendencias en Ciencias Económico-Administrativas, Tomo II: Elecciones 2018, Ch. 9. Secularte, A.C., 2018.</div>
+<div class="pubcite"><span class="pub-tag pub-tag--chapter">Book chapter</span> Tendencias en Ciencias Económico-Administrativas, Tomo II: Elecciones 2018, Ch. 9. Secularte, A.C., 2018.</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -395,7 +395,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">Evaluación de políticas públicas: una introducción</h4>
 <div class="pubauthor"><strong> Alejandro Mosiño</strong>, Antonio Baez Morales</div>
-<div class="pubcite"><span class="label label-success">Book Chapter</span> ABCD'Economía II, Ch. 6. Secularte, A.C., 2019.</div>
+<div class="pubcite"><span class="pub-tag pub-tag--chapter">Book chapter</span> ABCD'Economía II, Ch. 6. Secularte, A.C., 2019.</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>
@@ -414,7 +414,7 @@ url: "/publicaciones.html"
 </div>
 <h4 class="pubtitle">El género del empleo en América Latina</h4>
 <div class="pubauthor">Claudia S. Gómez López, <strong> Alejandro Mosiño</strong></div>
-<div class="pubcite"><span class="label label-success">Book Chapter</span> Problemas del Desarrollo en México II, Ch. 8. Grañén Porrúa, 2019.</div>
+<div class="pubcite"><span class="pub-tag pub-tag--chapter">Book chapter</span> Problemas del Desarrollo en México II, Ch. 8. Grañén Porrúa, 2019.</div>
 </div>
 <div class="pubdetails">
 <h4>Abstract</h4>

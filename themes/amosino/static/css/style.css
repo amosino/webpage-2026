@@ -1261,3 +1261,19 @@ form#contact-form{
 	padding: 25px;
 	display: none;
 }
+
+/* ===== Publication type tags ===== */
+.pub-tag{
+  display:inline-block;
+  padding:2px 8px;
+  border-radius:3px;
+  font-size:12px;
+  line-height:1.4;
+  color:#fff;
+  margin-right:10px;
+  vertical-align:baseline;
+}
+
+.pub-tag--journal{ background:#2e7d32; }   /* verde */
+.pub-tag--book{ background:#6a1b9a; }      /* morado */
+.pub-tag--chapter{ background:#1565c0; }   /* azul */

@@ -1,0 +1,14 @@
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+
+# RStudio / R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# macOS
+.DS_Store
+*.log

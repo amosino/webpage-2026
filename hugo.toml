@@ -1,0 +1,14 @@
+baseURL = "https://amosino.github.io/webpage-2026/"
+languageCode = "es-mx"
+defaultContentLanguage = "es"
+title = "Alejandro Mosiño"
+theme = "amosino"
+enableRobotsTXT = true
+relativeURLs = true
+canonifyURLs = true
+uglyURLs = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

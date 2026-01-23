@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "es" }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+  <!-- CSS (copiado del sitio original) -->
+  <link rel="stylesheet" href="{{ "css/bootstrap.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "css/font-awesome.min.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "css/perfect-scrollbar-0.4.5.min.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "css/magnific-popup.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+  <link rel="stylesheet" id="theme-style" href="{{ "css/styles/default.css" | relURL }}" />
+
+  {{ block "head" . }}{{ end }}
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="sidebar">
+      {{ partial "sidebar.html" . }}
+    </div>
+
+    <div id="main">
+      {{ block "main" . }}{{ end }}
+    </div>
+  </div>
+
+  <!-- JS (copiado del sitio original) -->
+  <script src="{{ "js/jquery-1.10.2.js" | relURL }}"></script>
+  <script src="{{ "js/TweenMax.min.js" | relURL }}"></script>
+  <script src="{{ "js/jquery.touchSwipe.min.js" | relURL }}"></script>
+  <script src="{{ "js/jquery.carouFredSel-6.2.1-packed.js" | relURL }}"></script>
+  <script src="{{ "js/modernizr.custom.63321.js" | relURL }}"></script>
+  <script src="{{ "js/jquery.dropdownit.js" | relURL }}"></script>
+  <script src="{{ "js/jquery.stellar.min.js" | relURL }}"></script>
+  <script src="{{ "js/ScrollToPlugin.min.js" | relURL }}"></script>
+  <script src="{{ "js/bootstrap.min.js" | relURL }}"></script>
+  <script src="{{ "js/jquery.mixitup.min.js" | relURL }}"></script>
+  <script src="{{ "js/masonry.min.js" | relURL }}"></script>
+  <script src="{{ "js/perfect-scrollbar-0.4.5.with-mousewheel.min.js" | relURL }}"></script>
+  <script src="{{ "js/magnific-popup.js" | relURL }}"></script>
+  <script src="{{ "js/custom.js" | relURL }}"></script>
+
+  {{ block "footer" . }}{{ end }}
+</body>
+</html>

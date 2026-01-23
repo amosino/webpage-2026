@@ -1,0 +1,3 @@
+name = "amosino-clone"
+license = "MIT"
+description = "Clone del sitio estático original de Alejandro Mosiño, adaptado a Hugo."

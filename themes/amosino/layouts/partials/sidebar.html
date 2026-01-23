@@ -1,0 +1,55 @@
+<div id="main-nav">
+  <div id="nav-container">
+    <div id="profile" class="clearfix">
+      <div class="portrate hidden-xs"></div>
+      <div class="title">
+        <h2>Alejandro Mosiño</h2>
+        <h3>Universidad de Guanajuato</h3>
+      </div>
+    </div>
+
+    <ul id="navigation">
+      <li class="{{ if or .IsHome (eq .RelPermalink "/index.html") }}currentmenu{{ end }}">
+        <a href="{{ "/" | relURL }}">
+          <div class="icon icon-user"></div>
+          <div class="text">Quién soy</div>
+        </a>
+      </li>
+
+      <li class="{{ if in .RelPermalink "publicaciones" }}currentmenu{{ end }}">
+        <a href="{{ "publicaciones.html" | relURL }}">
+          <div class="icon icon-edit"></div>
+          <div class="text">Publicaciones</div>
+        </a>
+      </li>
+
+      <li class="{{ if in .RelPermalink "docencia" }}currentmenu{{ end }}">
+        <a href="{{ "docencia.html" | relURL }}">
+          <div class="icon icon-desktop"></div>
+          <div class="text">Docencia</div>
+        </a>
+      </li>
+
+      <li>
+        <a href="http://blog.amosino.net">
+          <div class="icon icon-calendar"></div>
+          <div class="text">Econometría &amp; Co.</div>
+        </a>
+      </li>
+
+      <li class="{{ if in .RelPermalink "contacto" }}currentmenu{{ end }}">
+        <a href="{{ "contacto.html" | relURL }}">
+          <div class="icon icon-envelope"></div>
+          <div class="text">Contacto</div>
+        </a>
+      </li>
+
+      <li>
+        <a href="{{ "cv.pdf" | relURL }}">
+          <div class="icon icon-download-alt"></div>
+          <div class="text">Descargar CV</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

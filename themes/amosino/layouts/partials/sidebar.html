@@ -11,35 +11,35 @@
     <ul id="navigation">
       <li class="{{ if or .IsHome (eq .RelPermalink "/index.html") }}currentmenu{{ end }}">
         <a href="{{ "/" | relURL }}">
-          <div class="icon icon-user"></div>
+          <div class="icon"><i class="fa-solid fa-user"></i></div>
           <div class="text">Quién soy</div>
         </a>
       </li>
 
       <li class="{{ if in .RelPermalink "publicaciones" }}currentmenu{{ end }}">
         <a href="{{ "publicaciones.html" | relURL }}">
-          <div class="icon icon-edit"></div>
+          <div class="icon"><i class="fa-regular fa-pen-to-square"></i></div>
           <div class="text">Publicaciones</div>
         </a>
       </li>
 
       <li class="{{ if in .RelPermalink "docencia" }}currentmenu{{ end }}">
         <a href="{{ "docencia.html" | relURL }}">
-          <div class="icon icon-desktop"></div>
+          <div class="icon"><i class="fa-solid fa-person-chalkboard"></i></div>
           <div class="text">Docencia</div>
         </a>
       </li>
       
       <li class="{{ if in .RelPermalink "proyectos" }}currentmenu{{ end }}">
         <a href="{{ "proyectos.html" | relURL }}">
-          <div class="icon icon-desktop"></div>
+          <div class="icon"><i class="fa-solid fa-desktop"></i></div>
           <div class="text">Proyectos</div>
         </a>
       </li>
 
       <li>
         <a href="http://blog.amosino.net">
-          <div class="icon icon-calendar"></div>
+           <div class="icon"><i class="fa-solid fa-blog"></i></div>
           <div class="text">Econometría &amp; Co.</div>
         </a>
       </li>
@@ -47,14 +47,14 @@
 <!--
       <li class="{{ if in .RelPermalink "contacto" }}currentmenu{{ end }}">
         <a href="{{ "contacto.html" | relURL }}">
-          <div class="icon icon-envelope"></div>
+          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
           <div class="text">Contacto</div>
         </a>
       </li>
 -->
       <li>
         <a href="{{ "cv.pdf" | relURL }}">
-          <div class="icon icon-download-alt"></div>
+          <div class="icon"><i class="fa-solid fa-download"></i></div>
           <div class="text">Descargar CV</div>
         </a>
       </li>

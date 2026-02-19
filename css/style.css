@@ -1280,56 +1280,178 @@ form#contact-form{
 
 
 /* --- Blog --- */
-.blog-post{
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 1.05em;
-  line-height: 1.7;
-}
+/* =========================================================
+   BLOG — Authorea-style academic minimal (Phase A)
+   Scope: only pages that use .blog-post / .blog-item
+   ========================================================= */
 
-.blog-post h3{
-  margin-top: 28px;
-}
-
-.blog-cta{
-  background:#f5f5f5;
-  padding:16px;
-  border-radius:12px;
-  margin-top:24px;
-}
-
-/* BLOG LIST */
+/* LISTADO */
 .blog-item{
-  max-width: 800px;
-  margin: 0 auto 40px auto;
+  max-width: 760px;
+  margin: 0 auto 44px auto;
 }
 
 .blog-item h3{
-  margin-bottom: 6px;
+  font-size: 1.35em;
+  line-height: 1.25;
+  margin: 0 0 6px 0;
+}
+
+.blog-item h3 a{
+  color: #111;
+  text-decoration: none;
+}
+
+.blog-item h3 a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .blog-meta{
-  font-size: 0.9em;
-  opacity: 0.7;
-  margin-bottom: 10px;
+  font-size: 0.92em;
+  color: #6f6f6f;
+  margin-bottom: 12px;
+}
+
+.blog-item p{
+  font-size: 1.05em;
+  line-height: 1.75;
+  color: #222;
+  margin: 0 0 10px 0;
 }
 
 .read-more{
-  font-weight: 500;
+  font-size: 0.98em;
+  color: #111;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
-/* BLOG POST */
+/* POST */
 .blog-post{
-  max-width: 800px;
+  max-width: 760px;
   margin: 0 auto;
-  font-size: 1.1em;
-  line-height: 1.75;
+  font-size: 1.14em;
+  line-height: 1.85;
+  color: #1a1a1a;
 }
 
+/* Título tipo paper */
 .blog-post h1{
-  margin-bottom: 10px;
+  font-size: 2.15em;
+  line-height: 1.15;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  margin: 0 0 10px 0;
 }
 
+/* Meta discreta */
+.blog-post .blog-meta{
+  font-size: 0.95em;
+  color: #777;
+  margin-bottom: 18px;
+}
+
+/* Jerarquía de secciones */
+.blog-post h2{
+  font-size: 1.35em;
+  line-height: 1.25;
+  margin: 2.3em 0 0.7em 0;
+  font-weight: 650;
+}
+
+.blog-post h3{
+  font-size: 1.15em;
+  line-height: 1.35;
+  margin: 2.1em 0 0.6em 0;
+  font-weight: 650;
+}
+
+/* Párrafos y listas */
+.blog-post p{
+  margin: 0 0 1.05em 0;
+}
+
+.blog-post ul,
+.blog-post ol{
+  margin: 0.2em 0 1.2em 1.2em;
+}
+
+.blog-post li{
+  margin: 0.25em 0;
+}
+
+/* Enlaces sobrios tipo Authorea */
+.blog-post a{
+  color: #111;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.blog-post a:hover{
+  color: #000;
+}
+
+/* Separador */
 .blog-post hr{
-  margin: 20px 0 30px 0;
+  border: 0;
+  border-top: 1px solid #e6e6e6;
+  margin: 22px 0 30px 0;
+}
+
+/* CTA: lo mantenemos pero con estética académica */
+.blog-cta{
+  background: #fafafa;
+  border-left: 3px solid #d0d0d0;
+  padding: 18px 20px;
+  border-radius: 0;
+  margin-top: 34px;
+  font-size: 0.95em;
+  color: #444;
+}
+
+/* Blockquotes (por si usas citas) */
+.blog-post blockquote{
+  border-left: 3px solid #ddd;
+  padding-left: 16px;
+  margin: 1.4em 0;
+  color: #444;
+}
+
+/* Código inline y bloques */
+.blog-post code{
+  font-size: 0.95em;
+}
+
+.blog-post pre{
+  background: #fafafa;
+  border: 1px solid #eee;
+  padding: 14px 16px;
+  overflow-x: auto;
+  border-radius: 8px;
+  margin: 1.2em 0;
+}
+
+/* Serif solo en blog (Authorea vibe) */
+.blog-post, .blog-item{
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+
+/* =========================================================
+   BLOG WIDTH FIX 
+   ========================================================= */
+
+#blog .section-container,
+#blog-post .section-container{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.blog-post,
+.blog-item{
+  max-width: 920px;   /* antes 760 */
+  margin: 0 auto;
 }

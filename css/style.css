@@ -1277,3 +1277,59 @@ form#contact-form{
 .pub-tag--journal{ background:#2e7d32; }   /* verde */
 .pub-tag--book{ background:#6a1b9a; }      /* morado */
 .pub-tag--chapter{ background:#1565c0; }   /* azul */
+
+
+/* --- Blog --- */
+.blog-post{
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.05em;
+  line-height: 1.7;
+}
+
+.blog-post h3{
+  margin-top: 28px;
+}
+
+.blog-cta{
+  background:#f5f5f5;
+  padding:16px;
+  border-radius:12px;
+  margin-top:24px;
+}
+
+/* BLOG LIST */
+.blog-item{
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.blog-item h3{
+  margin-bottom: 6px;
+}
+
+.blog-meta{
+  font-size: 0.9em;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.read-more{
+  font-weight: 500;
+}
+
+/* BLOG POST */
+.blog-post{
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.75;
+}
+
+.blog-post h1{
+  margin-bottom: 10px;
+}
+
+.blog-post hr{
+  margin: 20px 0 30px 0;
+}

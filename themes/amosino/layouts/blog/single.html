@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<div class="page" id="blog-post">
+  <div class="page-container">
+
+    <div class="pagecontents">
+      <div class="section-container blog-post">
+
+        <h1>{{ .Title }}</h1>
+
+        <div class="blog-meta">
+          {{ .Date.Format "2 January 2006" }}
+          {{ with .Params.categories }} · {{ index . 0 }}{{ end }}
+        </div>
+
+        <hr/>
+
+        {{ .Content }}
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{{ end }}

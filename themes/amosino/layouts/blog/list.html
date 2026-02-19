@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<div class="page" id="blog">
+  <div class="page-container">
+
+    <div class="pageheader">
+      <div class="headercontent">
+        <div class="section-container">
+          <h2 class="title">Blog</h2>
+          <p class="lead">
+            Reflexiones sobre economía, política pública e investigación aplicada.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagecontents">
+      <div class="section-container">
+
+        {{ range .Pages.ByDate.Reverse }}
+        <div class="blog-item">
+          <h3>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h3>
+
+          <div class="blog-meta">
+            {{ .Date.Format "January 2006" }}
+            {{ with .Params.categories }} · {{ index . 0 }}{{ end }}
+          </div>
+
+          <p>{{ .Summary }}</p>
+
+          <a class="read-more" href="{{ .RelPermalink }}">Leer más →</a>
+        </div>
+        <hr/>
+        {{ end }}
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{{ end }}

@@ -36,6 +36,15 @@
           <div class="text">Proyectos</div>
         </a>
       </li>
+      
+      <li class="{{ if in .RelPermalink "blog" }}currentmenu{{ end }}">
+        <a href="{{ "blog" | relURL }}">
+        <div class="icon"><i class="a-solid fa-desktop"></i></div>
+        <div class="text">Blog</div>
+      </a>
+      </li>
+
+<!--
 
       <li>
         <a href="http://blog.amosino.net">
@@ -44,7 +53,6 @@
         </a>
       </li>
 
-<!--
       <li class="{{ if in .RelPermalink "contacto" }}currentmenu{{ end }}">
         <a href="{{ "contacto.html" | relURL }}">
           <div class="icon"><i class="fa-solid fa-envelope"></i></div>
